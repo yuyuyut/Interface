@@ -1,0 +1,403 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+body{
+	font-size: 14px;
+}
+/*header开始*/
+#header{
+	height: 76px;	
+	background: #fff;
+}
+#logo{
+	position: absolute;
+	padding: 16px 0 6px 0;
+}
+.nav{
+	height: 51px;
+	float: right;
+}
+.nav ul{
+	height: 51px;
+	width: 450px;
+	padding: 26px 0 6px 0;
+}
+.nav li{
+	float: left;
+	width: 90px;
+	height: 36px;
+	text-align: center; 
+}
+.nav a{
+    line-height: 36px;
+    color: #434343;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav a:hover{
+	color: #EA3939;
+}
+
+/*header结束*/
+/*banner开始*/
+#banner{
+	height: 455px;
+	padding-top: 6px;
+}
+/*banner结束*/
+/*intro开始*/
+#intro{
+	height: 152px;
+	padding-top: 6px;
+}
+#intro h3{
+	margin-top: 6px;
+	line-height: 35px;
+}
+.title{
+	height: 35px;
+}
+#intro span{
+	float: right;
+	width: 100px;
+	height: 30px;
+	margin-top: -35px;	
+	text-align: center;
+}
+#intro .title span:hover{
+	background: #EA3939;
+	border-radius: 15px;
+}
+#intro a{
+	line-height: 30px;
+	color: #333;
+	font-size: 12px;
+}
+.dynamic{
+	height: 135px;
+	width: 640px;
+}
+.dynamic p{
+	float: left;
+	width: 280px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+	padding-left: 15px;
+	background: url('../img/home-bg1.png') no-repeat left center;
+}
+.list{
+	height: 100px;
+	width: 640px;
+}
+#intro .list a:hover{
+	color: blue;
+}
+.notice{
+	float: right;
+	height: 135px;
+	width: 400px;
+	margin-top: -140px;
+}
+.notice ul{
+	height: 90px;
+	width: 380px;
+	border: 1px dotted;
+}
+.notice li{
+	text-align: center;
+	margin-left: 10px;
+	background: url('../img/home-bg1.png') no-repeat left center;
+}
+/*intro结束*/
+/*recommend开始*/
+#recommend{
+	height: 450px;
+	background: #F5F5F5;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+#recommend .title{
+	height: 135px;
+}
+#recommend .title h2{
+	text-align: center;
+	color: #666;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	line-height: 55px;
+}
+#recommend .title h5{
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	line-height: 32px;
+	margin-bottom: 35px;
+	font-weight: bolder;
+}
+#recommend .details{
+	height: 212px;
+}
+#recommend .details a{
+	display: block;
+    float: left;
+    width: 194px;
+    padding-right: 25px;
+    color: #666;
+    font-weight: bold;
+    line-height:28px;
+    text-align: center;
+}
+#recommend .details span{
+	width: 175px;
+	height: 28px;
+	text-align: center;
+	line-height:28px; 
+}
+#recommend .details span:hover{
+	color: #0064d4;
+}
+#recommend .more{
+	display: block;
+    float: right;
+    line-height: 30px;
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+.more a{
+	color: #333;
+}
+.more p{
+	width: 100px;
+	height: 30px;
+	margin-left: 500px;
+	}
+#recommend .more p:hover{
+	background: green;
+	border-radius: 15px;
+}
+/*recommend结束*/
+/*service开始*/
+#service{
+	height: 324px;
+}
+#service p{
+	position: relative;
+	top: -52px;
+	margin-left: 624px;
+	border: white 1px solid;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	background: #93c47d;
+	text-align: center;
+	line-height: 30px;
+	font-size: 13px;
+	color: white;
+}
+#service p:hover{
+	background: white;
+	color: black;
+	border: orange 1px solid;
+	border-radius: 5px;
+}
+/*service结束*/
+/*problem开始*/
+#problem{
+	height: 370px;
+	background: #FEE157;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: -30px;
+}
+#problem .left{
+	width: 675px;
+	height: 269px;
+}
+.title{
+	height: 35px;
+}
+#problem h2{
+	line-height: 35px;
+	padding-top: 10px;
+	font-size: 19px;
+	color: #666;
+	padding-bottom: 15px;
+}
+#problem .left span{
+	float: right;
+	width: 100px;
+	height: 25px;
+	margin-top: -45px;
+	text-align: center;
+}
+#problem .left span:hover{
+	background: white;
+	border-radius: 15px;
+}
+#problem .title a{
+	line-height: 27px;
+	color: #333;
+	font-size: 12px;
+}
+#problem .list{
+	width: 635px;
+	height: 170px;
+	padding: 20px;
+	border: 1px dotted #999;
+	float: left;
+	color: #666;
+	font-size: 15px;
+}
+#problem li{
+	height: 25px;
+	width: 630px;
+	line-height: 20px;
+	border-bottom: 1px dotted #999;
+	text-indent: 15px;
+	padding: 8px 0 0 5px;
+	background: url('../img/Problem-bg.png') no-repeat 5px center;
+}
+#problem .list a{
+	color: #666;
+}
+#problem .list a:hover{
+	color: #0064d4;
+}
+#problem .right{
+	float: right;
+	margin-top: -270px;
+	width: 335px;
+	height: 359px;
+}
+#problem .right h2{
+	text-align: center;
+}
+#problem .right .table{
+	margin-top: 25px;
+	width: 333px;
+	height: 260px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px dotted #999;
+}
+#problem .right form{
+	width: 335px;
+	height: 300px;
+	text-align: center;
+}
+#problem .right span{
+	width: 335px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	color: #666;
+}
+#problem .right .red{
+	position: relative;
+	font-size: 14px;
+	color: red;
+	top: -4px;
+	padding-left:5px;
+}
+#problem .right .red1{
+	font-size: 14px;
+	color: red;
+}
+#problem .right .online-txt{
+	width: 260px;
+	height: 27px;
+	border: 1px dotted #999;
+}
+#problem .right .online-txt1{
+	width: 82px;
+	height: 24px;
+	margin-top: 20px;
+	margin-left: -5px;
+	border: 1px dotted #999;
+}
+#problem .right .img{
+	color: #666;
+	line-height: 30px;
+	font-size: 15px;
+}
+#problem .right .submit{
+	width: 100px;
+	height: 25px;
+	line-height: 20px;
+	border: none;
+	font-size: 14px;
+	background: #666;
+	margin-top: 10px;
+	color: white;
+}
+/*problem结束*/
+/*footer开始*/
+#footer{
+	background: #414B4A;
+	height: 100px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+#footer .top{
+	clear: both;
+	height: 100px;
+	text-align: center;
+}
+#footer ul{
+	height: 25px;
+	text-align: center;
+	float: left;
+	margin-left: 370px;
+}
+#footer li{
+	font-size: 14px;
+	float: left;
+	line-height: 25px;
+	padding-left: 20px;
+	text-align: center;
+}
+#footer a{
+	color: white;
+}
+#footer div{
+	text-align: center;
+	clear: both;
+	color: white;
+    padding-top: 6px;
+}
+#footer .under{
+	margin-top: -10px;
+}
+#sign{
+	color: #333;
+	text-align: center;
+	height: 21px;
+	padding: 5px;
+	margin-top: 5px;
+}
+#sign a{
+	color: #333;
+	padding-left: 5px;
+}
+/*footer结束*/
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}

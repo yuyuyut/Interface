@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+body{
+	font-size: 14px;
+}
+/*header开始*/
+#header{
+	height: 76px;	
+	background: #fff;
+}
+#logo{
+	position: absolute;
+	padding: 16px 0 6px 0;
+}
+.nav{
+	height: 51px;
+	float: right;
+}
+.nav ul{
+	height: 51px;
+	width: 450px;
+	padding: 26px 0 6px 0;
+}
+.nav li{
+	float: left;
+	width: 90px;
+	height: 36px;
+	text-align: center; 
+}
+.nav a{
+    line-height: 36px;
+    color: #434343;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav a:hover{
+	color: #EA3939;
+}
+
+/*header结束*/
+/*banner开始*/
+#banner{
+	height: 455px;
+	padding-top: 6px;
+}
+/*banner结束*/
+/*intro 开始*/
+#intro{
+	height: 1270px;
+	position: relative;
+}
+#intro .wrap{
+	height: 1270px;
+	background-color: #fafdff;	
+}
+#tab{
+	height: 52px;
+	width: 380px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+#tab li{
+	float: left;
+	text-align: center;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	margin-left: 10px;
+	line-height: 28px;
+	font-size: 16px;
+	color: #434343;
+}
+#tab li:hover{
+	background: #6AA84F;
+	color: white;
+	border-radius: 7px;
+}
+.detail{
+	height: 771px;
+	padding-left: 10px;
+}
+.detail .view{
+	height: 771px;
+}
+.detail .pro img{
+	border: 6px solid #cccccc;
+	width: 100%;
+	height: 275px
+}
+.detail li{
+	float: left;
+	text-align: center;
+	padding: 10px 20px 40px 20px;
+	width: 220px;
+	display: inline;
+}
+.detail img:hover{
+	border: 6px solid #F90;
+}
+.detail a{
+	color: #333;
+}
+.detail .title{
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+}
+.detail .title a:hover{
+	color: #0064d4;
+}
+.detail .free{
+	width: 355px;
+	height: 400px;
+}
+.detail .menu{
+	margin-top: -16px;
+	margin-left: -10px;
+	padding-left: 10px;
+	width: 100%;
+}
+.detail .menu h2{
+	text-align: center;
+	line-height: 35px;
+	padding-top: 10px;
+	font-size: 19px;
+	color: #666;
+	padding-bottom: 15px;
+}
+.detail .table{
+	margin-left: 5px;
+	float: left;
+	margin-top: 10px;
+	width: 333px;
+	height: 260px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: #666 1px dotted;
+}
+.detail form{
+	width: 335px;
+	height: 295px;
+	text-align: center;
+}
+.detail span{
+	width: 335px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	color: #666;
+}
+.detail .red{
+	position: relative;
+	font-size: 14px;
+	color: red;
+	top: -4px;
+	padding-left:5px;
+}
+.detail .red1{
+	font-size: 14px;
+	color: red;
+}
+.detail .online-txt{
+	width: 260px;
+	height: 27px;
+	border: 1px dotted #999;
+}
+.detail .online-txt1{
+	width: 82px;
+	height: 24px;
+	margin-top: 20px;
+	margin-left: -5px;
+	border: 1px dotted #999;
+}
+.detail .img1{
+	color: #666;
+	line-height: 30px;
+	font-size: 15px;
+}
+.detail .submit{
+	width: 100px;
+	height: 25px;
+	line-height: 20px;
+	border: none;
+	font-size: 14px;
+	background: #666;
+	margin-top: 10px;
+	color: white;
+}
+.detail .new{
+	float: right;
+	margin-top: -400px;
+	width: 677px;
+}
+.new .list{
+	width: 637px;
+	height: 240px;
+	padding: 20px;
+	margin-left: -20px;
+	border: 1px dotted #999;
+	float: left;
+	color: #666;
+	font-size: 15px;
+	margin-top: -5px;
+}
+.new li{
+	text-align: left;
+	height: 25px;
+	width: 630px;
+	line-height: 20px;
+	border-bottom: 1px dotted #999;
+	text-indent: 15px;
+	padding: 8px 0 0 5px;
+	background: url('../img/Problem-bg.png') no-repeat 5px center;
+}
+.new .list a{
+	color: #666;
+}
+.new .list a:hover{
+	color: #0064d4;
+}
+/*intro 结束*/
+/*footer开始*/
+#footer{
+	background: #414B4A;
+	height: 100px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+#footer .top{
+	clear: both;
+	height: 100px;
+	text-align: center;
+}
+#footer ul{
+	height: 25px;
+	text-align: center;
+	float: left;
+	margin-left: 370px;
+}
+#footer li{
+	font-size: 14px;
+	float: left;
+	line-height: 25px;
+	padding-left: 20px;
+	text-align: center;
+}
+#footer a{
+	color: white;
+}
+#footer div{
+	text-align: center;
+	clear: both;
+	color: white;
+    padding-top: 6px;
+}
+#footer .under{
+	margin-top: -10px;
+}
+#sign{
+	color: #333;
+	text-align: center;
+	height: 21px;
+	padding: 5px;
+	margin-top: 5px;
+}
+#sign a{
+	color: #333;
+	padding-left: 5px;
+}
+/*footer结束*/
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
